@@ -28,13 +28,13 @@ public class ProductApplication {
 			.apiInfo(metaInfo());
 	}
 	private ApiInfo metaInfo() {
-		ApiInfo apiInfo = new ApiInfo("Swagger-REST Example API ",
+		ApiInfo apiInfo = new ApiInfo("Swagger-REST Application ",
 				" swagger with rest services ",
 				"1.0 ",
 				"terms of service ",
-				new Contact("HCL Tech ", " https://hcl.com", "harikrihnapa@hcl.com"),
-				" My software licence ",
-				" https://mylicence.url.com",
+				new Contact("", "", ""),
+				"",
+				"",
 				new ArrayList());
 
 		return apiInfo;
